@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <title>API Docs - Like a Boss!</title>
+    <link rel="stylesheet" type="text/css" href="build/build.css">
+  </head>
+  <body>
+    <article>
+      <section>
+        <div id="heading">
+          <h1>Api Docs</h1>
+          <div>like a Boss!</div>
+        </div><br><br><br>
+      </section>
+      <!-- 1 min-->
+      <section>
+        <li>Rob Pocklington</li>
+        <li>Full-stack developer my whole career</li>
+        <li>Java, Ruby, Groovy, Scala, Node + JS</li>
+        <li>Worked at the usual suspects (<span style="color: #6699ff">MYOB</span>, <span style="color: #66aaff">Sportsbet</span>, <span style="color: #99ccff">Seek</span>)</li>
+        <li>Currently @ <span style="color: #cc6666">NAB</span> in Docklands</li><br>
+        <li>Ran a startup using Rails 4 - Nocturnal Ruby dev :)</li>
+        <li></li>
+        <li></li>
+      </section>
+      <section>
+        <h2>It's 2016 - Everyone has an API</h2>
+        <li></li>
+        <li><b>SOAP</b> (ugh...)</li>
+        <li><b>Websockets</b> (finally ...)</li>
+        <li><b>JSON</b> (&larr; lets focus on this one)</li>
+        <li></li>
+      </section>
+      <section>
+        <h2>JSON API Structure</h2><br>
+        <li>URI</li>
+        <li>Headers - Key + Values</li>
+        <li>Body - JSON format</li>
+        <li>Response Status</li>
+        <li></li>
+      </section>
+      <section>
+        <h2>So why bother with API Docs?</h2><br>
+        <li>You forget shit (we know you'd never admit it)</li>
+        <li>Other developers (co-located / remote)</li>
+        <li>3rd-party developers</li>
+        <li>Testers</li>
+        <li>Potentially everyone</li>
+        <li></li>
+      </section>
+      <section>
+        <h2>Docs are extra work!</h2>
+        <li></li>
+        <li>No sh#t - but they are worth it</li>
+        <li></li>
+        <li><b>But ...</b></li>
+        <li>how do you keep them in sync with the code?</li>
+        <li>how do you publish changes / versions?</li>
+        <li>how do you ensure the docs are accurate?</li>
+        <li></li>
+      </section>
+      <section>
+        <h2>It's 2016 and i'm busy.</h2><br>
+        <h2>Give me one solution for any JSON API.</h2>
+        <h2></h2>
+        <h2>And i'm not payin' for it.</h2>
+      </section>
+      <section>
+        <h2>Docs Like a Boss!</h2>
+        <li></li>
+        <li>With just 2 gems:</li>
+        <li>Here's how to generate and automate</li>
+        <li>continual building of useful, relevant and tested docs</li>
+        <li>for any JSON API codebase</li>
+        <li></li>
+      </section>
+      <section>
+        <h2>Gems</h2><br>
+        <li><a href="https://github.com/zipmark/rspec_api_documentation">RSpec Api Documentation</a></li>
+        <li>Specific type of RSpec test designed for APIs</li>
+        <li>Request &rarr; Response based<br><br></li>
+        <li><b>Input</b>: RSpec API testcases</li>
+        <li>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b>Output</b>: A markdown test report</li>
+      </section>
+      <section>
+        <h2>Gems (cont ...)</h2>
+        <li></li>
+        <li><a href="https://github.com/lord/slate">Slate</a></li>
+        <li>All HTML and theming (the eye candy)<br><br></li>
+        <li>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b>Input</b>: Consumes the markdown report</li>
+        <li><b>Output</b>: Sexy API Docs (aww yeah!)</li>
+        <li></li>
+      </section>
+      <section><br>
+        <h2>Demo Time</h2>
+        <li></li>
+        <li>I think you're full of sh#t<br>There's no way it's that easy<br>...<br>Prove it</li>
+      </section>
+      <section><br>
+        <h2>Key Points</h2>
+        <li></li>
+        <li>Aim for multiple testcases per API endpoint<br>(ie. at least one successful + multiple failure scenarios)</li>
+        <li></li>
+        <li>Maximise API tests by using valid DB datasets<br>(test controllers / services / persistence)<br><br></li>
+        <li>Personalise the <b>slate</b> theme for your company</li>
+        <li></li>
+      </section>
+      <section><br>
+        <h2>Other Useful Tools</h2>
+        <li></li>
+        <li>&nbsp;&nbsp;&nbsp;<a href="https://github.com/stympy/faker">Faker Gem</a> - Realistic randomised fields</li>
+        <li><a href="https://github.com/collectiveidea/json_spec">Json Spec</a> - JSON Spec assertions</li>
+        <li>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://github.com/jejacks0n/apitome">Apitome Gem</a> - If using Rails for view rendering</li>
+        <li><a href="https://github.com/semantic-release/semantic-release">Semantic Release</a> - Version your API (and docs)</li>
+        <li></li>
+      </section>
+      <section>
+        <h2 style="color: #66eeaa">Thanks for listening!<br/><br/></h2>
+        <li>Slides<br/><b>rp.js.org/api-docs-pres/</b><br/><br/>Twitter<br/><b>@MelbourneRuby @rpocklin</b></li>
+        <li></li>
+      </section>
+    </article>
+    <script src="build/build.js"></script>
+  </body>
+</html>
